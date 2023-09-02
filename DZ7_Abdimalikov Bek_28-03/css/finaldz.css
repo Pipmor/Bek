@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: black;
+    color: orange;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: orange;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.card {
+    background-color: black;
+    color: darkgray;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 10px;
+    width: calc(30% - 20px);
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    height: 300px;
+    transform: scale(1.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    background-image: url("https://i.pinimg.com/564x/bb/8d/1c/bb8d1ccfc8358b5b1e48bfa12ce1635d.jpg");
+}
+
+h1 {
+    margin-top: 60px;
+}
+
